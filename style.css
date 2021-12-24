@@ -76,10 +76,7 @@ button {
 @media (max-width: 600px) {
 	
 	.divisor {
-		padding-bottom: 50px;
-		padding-top: 40px;
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-top: 200px;
 		
 	}
 }
