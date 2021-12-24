@@ -79,11 +79,14 @@ button {
 		display: flex;
 		flex-direction: column;
 		padding: 0;
-		text-align: center;
+		text-align: left;
+		justify-content: center;
 	}
 
-	form, button {
+	form {
 		padding: 0px;
-		width: 100px;
+		
+	label {
+		height: auto;
 	}
 }
