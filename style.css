@@ -77,15 +77,7 @@ button {
 
 	body {
 		margin: 0;
-		background-position: center;
-	}
-	
-	.divisor {
-		display: flex;
-		flex-direction: column;
-		padding: 0;
-		text-align: left;
-		justify-content: center;
+		background-position: bottom;
 	}
 
 	form {
