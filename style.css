@@ -74,9 +74,12 @@ button {
 }
 
 @media (max-width: 600px) {
-
-	body {
-		padding: 20px;
-		background-position: top;
+	
+	.divisor {
+		padding-bottom: 50px;
+		padding-top: 40px;
+		padding-left: 20px;
+		padding-right: 20px;
+		
 	}
 }
