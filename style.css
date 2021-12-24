@@ -76,11 +76,7 @@ button {
 @media (max-width: 600px) {
 
 	body {
-		margin: 0;
-		background-position: bottom;
-	}
-
-	form {
-		padding: 0px;
+		padding: 20px;
+		background-position: top;
 	}
 }
