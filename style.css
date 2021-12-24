@@ -75,6 +75,11 @@ button {
 
 @media (max-width: 600px) {
 
+	body {
+		margin: 0;
+		background-position: center;
+	}
+	
 	.divisor {
 		display: flex;
 		flex-direction: column;
@@ -85,8 +90,5 @@ button {
 
 	form {
 		padding: 0px;
-		
-	label {
-		height: auto;
 	}
 }
