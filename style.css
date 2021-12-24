@@ -74,9 +74,6 @@ button {
 }
 
 @media (max-width: 600px) {
-	body {
-		margin: 20px;
-	}
 
 	.divisor {
 		display: flex;
@@ -85,7 +82,8 @@ button {
 		text-align: center;
 	}
 
-	form {
+	form, buttom {
 		padding: 0px;
+		width: auto;
 	}
 }
