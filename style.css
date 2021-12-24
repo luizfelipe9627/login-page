@@ -82,8 +82,8 @@ button {
 		text-align: center;
 	}
 
-	form, buttom {
+	form, button {
 		padding: 0px;
-		width: auto;
+		width: 100px;
 	}
 }
