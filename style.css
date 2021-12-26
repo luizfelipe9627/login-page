@@ -3,7 +3,6 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: rgba(187, 187, 187, 0.774);
 	background-image: url(https://luizfelipe9627.github.io/login-page/images/banner.jpg);
-	background-position: center;
 }
 
 h1 {
@@ -75,13 +74,12 @@ button {
 }
 
 @media (max-width: 600px) {
-	
-	.divisor {
-		padding-top: 200px;
+
+	.body {
+		padding: 20px;
 	}
 
-	.fundo {
-		padding-left: 20px;
-		padding-right: 20px;
+	.divisor {
+		padding: 100px;
 	}
 }
