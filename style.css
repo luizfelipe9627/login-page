@@ -52,11 +52,12 @@ input {
 
 button {
 	padding: 10px;
-	width: 350px;
+	width: 357px;
 	font-size: 15px;
 	color: white;
 	background: #0000cd;
 	font-weight: bold;
+	border: none;
 }
 
 .footer_cadastro {
@@ -77,6 +78,10 @@ button {
 	
 	.divisor {
 		padding-top: 200px;
-		
+	}
+
+	.fundo {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
