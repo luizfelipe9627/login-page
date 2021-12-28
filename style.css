@@ -1,36 +1,42 @@
 body {
 	margin: 0;
+	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: rgba(187, 187, 187, 0.774);
-	background-image: url(https://luizfelipe9627.github.io/login-page/images/banner.jpg);
-	background-position: center;
+}
+
+.wallpaper {
+	position: fixed;
 }
 
 h1 {
 	font-size: 35px;
 	text-align: center;
-	color: #1e90ff;
+	color: #0000cdc7;
 }
 
-.barra_login {
-	border-top: 2px solid #87cefa;
-	padding-bottom: 20px;
+.icon {
+	text-align: center;
+	padding-bottom: 30px;
 }
 
 .divisor {
 	display: flex;
 	justify-content: center;
 	text-align: left;
-	padding-top: 100px;
+	position: relative;
+	padding-top: 60px;
 }
 
 .fundo {
-	background-color: rgba(255, 255, 255, 0.658);
+	background-color: rgba(255, 255, 255, 0.247);
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	border-radius: 5px;
-	border: 3px solid rgba(18, 105, 236, 0.685);
+	border-radius: 10px;
+	border: 2px solid #0000cda8;
+	width: 300px;
+	height: 435px;
+	
 }
 
 label {
@@ -40,28 +46,35 @@ label {
 }
 
 .login {
-	width: 350px;
+	width: 300px;
 	height: 30px;
 }
 
 input {
 	font-size: 15px;
-	border: 2px solid rgba(80, 78, 78, 0.678);
-	border-radius: 5px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid rgba(18, 105, 236, 0.685);
 }
 
 button {
 	padding: 10px;
-	width: 357px;
+	width: 300px;
 	font-size: 15px;
 	color: white;
-	background: #0000cd;
+	background: #0000cdc7;
 	font-weight: bold;
 	border: none;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #0000cdad;
 }
 
 .footer_cadastro {
-	padding-top: 20px;
+	padding-top: 15px;
 	text-align: right;
 }
 
@@ -70,17 +83,15 @@ button {
 	color: #0000cd;
 }
 
+
 ::placeholder {
-	color: gray;
+	color: black;
 }
 
 @media (max-width: 600px) {
 
-	.body {
-		padding: 20px;
+	.wallpaper {
+		height: 70%;
 	}
-
-	.divisor {
-		padding: 100px;
-	}
+	
 }
