@@ -38,6 +38,10 @@ h1 {
 	height: 525px;
 }
 
+.fundo a {
+	color: blue;
+}
+
 label {
 	display: block;
 	margin-bottom: 20px;
@@ -94,13 +98,18 @@ button:hover {
 
 .icone_texto {
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 10px;
 }
 
 .icone_facebook, .icone_email, .icone_google {
 	padding: 10px;
 	padding-top: 15px;
 	width: 40px;
+}
+
+.senha {
+	text-align: center;
+	margin-top: 10px;
 }
 
 @media (max-width: 600px) {
