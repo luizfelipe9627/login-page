@@ -1,5 +1,5 @@
 /* 
-	CSS FUNDO ↴
+	FUNDO ↴
 */
 
 body {
@@ -13,7 +13,7 @@ article .wallpaper {
 }
 
 /* 
-	CSS ÁREA LOGIN ↴
+	ÁREA LOGIN ↴
 */
 
 article  .fundo {
@@ -89,7 +89,7 @@ article .senha {
 }
 
 /* 
-	CSS ÁREA ICONES ↴
+	ÁREA ICONES ↴
 */
 
 article .icon {
@@ -114,7 +114,7 @@ article .icone_facebook, .icone_email, .icone_google {
 }
 
 /* 
-	CSS ÁREA CADASTRO ↴
+	ÁREA CADASTRO ↴
 */
 
 article .cadastro {
@@ -128,13 +128,13 @@ article cadastro a {
 }
 
 /* 
-	CSS ÁREA RESPONSIVA ↴
+	ÁREA RESPONSIVA ↴
 */
 
 @media (max-width: 600px) {
 
 	/* 
-	CSS FUNDO ↴
+	FUNDO ↴
 	*/
 
 	article .wallpaper {
@@ -142,7 +142,7 @@ article cadastro a {
 	}
 
 	/* 
-	CSS ÁREA LOGIN ↴
+	ÁREA LOGIN ↴
 	*/
 
 	article .divisor {
