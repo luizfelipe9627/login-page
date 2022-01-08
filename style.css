@@ -1,20 +1,22 @@
+/* 
+	CSS FUNDO ↴
+*/
+
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans';
 }
 
-
-/* 
-CSS FUNDO 
-*/
-
-
-.wallpaper {
+article .wallpaper {
 	position: fixed;
 }
 
-.fundo {
+/* 
+	CSS ÁREA LOGIN ↴
+*/
+
+article  .fundo {
 	background-color: rgba(255, 255, 255, 0.247);
 	padding-left: 20px;
 	padding-right: 20px;
@@ -22,14 +24,14 @@ CSS FUNDO
 	border-radius: 10px;
 	border: 2px solid #F0F8FF;
 	width: 300px;
-	height: 540px;
+	height: 550px;
 }
 
-.fundo a {
+article  .fundo a {
 	color: blue;
 }
 
-.divisor {
+article .divisor {
 	display: flex;
 	justify-content: center;
 	text-align: left;
@@ -37,27 +39,23 @@ CSS FUNDO
 	padding-top: 35px;
 }
 
-/* 
-CSS ÁREA LOGIN
-*/
-
-.login {
+article .login {
 	width: 300px;
 	height: 30px;
 }
 
-h1 {
+article h1 {
 	font-size: 35px;
 	text-align: center;
 }
 
-label {
+article label {
 	display: block;
 	margin-bottom: 20px;
 	font-size: 17px;
 }
 
-input {
+article input {
 	font-size: 15px;
 	background-color: transparent;
 	border: none;
@@ -65,7 +63,7 @@ input {
 	border-bottom: 1px solid #F0F8FF	;
 }
 
-button {
+article button {
 	padding: 10px;
 	width: 300px;
 	font-size: 15px;
@@ -77,75 +75,78 @@ button {
 	box-shadow: 3px 3px #add8e660;
 }
 
-button:hover {
+article button:hover {
 	background-color: #add8e6c2;
 }
 
-::placeholder {
+article ::placeholder {
 	color: black;
 }
 
-.senha {
+article .senha {
 	text-align: center;
 	margin-top: 10px;
 }
 
-
 /* 
-CSS ÁREA ICONES
+	CSS ÁREA ICONES ↴
 */
 
-
-.icon {
+article .icon {
 	text-align: center;
 	padding-bottom: 30px;
 }
 
-.icones_login {
+article .icones_login {
 	display: flex;
 	justify-content: center;
 }
 
-.icone_texto {
+article .icone_texto {
 	text-align: center;
 	padding-top: 10px;
 }
 
-.icone_facebook, .icone_email, .icone_google {
+article .icone_facebook, .icone_email, .icone_google {
 	padding: 10px;
 	padding-top: 15px;
 	width: 40px;
 }
 
-
 /* 
-CSS ÁREA CADASTRO
+	CSS ÁREA CADASTRO ↴
 */
 
-
-.cadastro {
+article .cadastro {
 	padding-top: 5px;
 	text-align: right;
 }
 
-cadastro a {
+article cadastro a {
 	text-decoration: none;
 	color: #0000cd;
 }
 
-
 /* 
-CSS ÁREA RESPONSIVEL
+	CSS ÁREA RESPONSIVA ↴
 */
-
 
 @media (max-width: 600px) {
 
-	.divisor {
-		padding-top: 80px;
-	}
-	.wallpaper {
+	/* 
+	CSS FUNDO ↴
+	*/
+
+	article .wallpaper {
 		height: 100%;
+	}
+
+	/* 
+	CSS ÁREA LOGIN ↴
+	*/
+
+	article .divisor {
+		padding-top: 80px;
 	}
 	
 }
