@@ -6,7 +6,6 @@ body {
 
 .wallpaper {
 	position: fixed;
-	filter: blur(0.1em);
 }
 
 h1 {
