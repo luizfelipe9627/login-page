@@ -1,7 +1,7 @@
 # Login Page Layout
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/login-page/blob/master/images/login-page.png" alt="Site de Login">
+<img src="https://github.com/luizfelipe9627/login-page/blob/master/images/login-page.png" alt="Site">
 
 # Resumo
 Uma área de login na qual o usuario tera facil acesso a logar de várias formas diferentes ou se cadastrar caso seja necessário.
