@@ -3,10 +3,10 @@
 
 <img src="https://github.com/luizfelipe9627/login-page/blob/main/images/login-page.png" alt="Site">
 
-# Resumo
+## 📄 Resumo
 Uma área de login na qual o usuario tera facil acesso a logar de várias formas diferentes ou se cadastrar caso seja necessário.
 
-# <a href="https://luizfelipe9627.github.io/login-page">Acesse o site</a>
+## <a href="https://luizfelipe9627.github.io/login-page">Acesse o site</a>
 
 ## ✔️ Tecnologias utilizadas
 
