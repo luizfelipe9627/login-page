@@ -126,27 +126,3 @@ article cadastro a {
 	text-decoration: none;
 	color: #0000cd;
 }
-
-/* 
-	ÁREA RESPONSIVA ↴
-*/
-
-@media (max-width: 600px) {
-
-	/* 
-		FUNDO ↴
-	*/
-
-	article .wallpaper {
-		height: 100%;
-	}
-
-	/* 
-		ÁREA LOGIN ↴
-	*/
-
-	article .divisor {
-		padding-top: 80px;
-	}
-	
-}
