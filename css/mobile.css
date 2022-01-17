@@ -8,7 +8,7 @@
 		FUNDO ↴
 	*/
 
-	article .wallpaper {
+	.wallpaper {
 		height: 100%;
 	}
 
@@ -16,8 +16,8 @@
 		ÁREA LOGIN ↴
 	*/
 
-	article .divisor {
-		padding-top: 80px;
+	.divisor {
+		padding-top: 20vw;
 	}
 	
 }
