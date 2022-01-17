@@ -8,7 +8,7 @@ body {
 	font-family: 'Open Sans';
 }
 
-article .wallpaper {
+.wallpaper {
 	position: fixed;
 }
 
@@ -16,7 +16,7 @@ article .wallpaper {
 	ÁREA LOGIN ↴
 */
 
-article  .fundo {
+.fundo {
 	background-color: rgba(255, 255, 255, 0.247);
 	padding-left: 20px;
 	padding-right: 20px;
@@ -27,11 +27,11 @@ article  .fundo {
 	height: 550px;
 }
 
-article  .fundo a {
+.fundo a {
 	color: blue;
 }
 
-article .divisor {
+.divisor {
 	display: flex;
 	justify-content: center;
 	text-align: left;
@@ -39,23 +39,23 @@ article .divisor {
 	padding-top: 15px;
 }
 
-article .login {
+.login {
 	width: 300px;
 	height: 30px;
 }
 
-article h1 {
+h1 {
 	font-size: 35px;
 	text-align: center;
 }
 
-article label {
+label {
 	display: block;
 	margin-bottom: 20px;
 	font-size: 17px;
 }
 
-article input {
+input {
 	font-size: 15px;
 	background-color: transparent;
 	border: none;
@@ -63,7 +63,7 @@ article input {
 	border-bottom: 1px solid #F0F8FF	;
 }
 
-article button {
+button {
 	padding: 10px;
 	width: 300px;
 	font-size: 15px;
@@ -75,15 +75,15 @@ article button {
 	box-shadow: 3px 3px #add8e660;
 }
 
-article button:hover {
+button:hover {
 	background-color: #add8e6c2;
 }
 
-article ::placeholder {
+::placeholder {
 	color: black;
 }
 
-article .senha {
+.senha {
 	text-align: center;
 	margin-top: 10px;
 }
@@ -92,22 +92,22 @@ article .senha {
 	ÁREA ICONES ↴
 */
 
-article .icon {
+.icon {
 	text-align: center;
 	padding-bottom: 30px;
 }
 
-article .icones_login {
+.icones_login {
 	display: flex;
 	justify-content: center;
 }
 
-article .icone_texto {
+.icone_texto {
 	text-align: center;
 	padding-top: 10px;
 }
 
-article .icone_facebook, .icone_email, .icone_google {
+.icone_facebook, .icone_email, .icone_google {
 	padding: 10px;
 	padding-top: 15px;
 	width: 40px;
@@ -117,12 +117,12 @@ article .icone_facebook, .icone_email, .icone_google {
 	ÁREA CADASTRO ↴
 */
 
-article .cadastro {
+.cadastro {
 	padding-top: 5px;
 	text-align: right;
 }
 
-article cadastro a {
+cadastro a {
 	text-decoration: none;
 	color: #0000cd;
 }
