@@ -126,3 +126,18 @@ cadastro a {
 	text-decoration: none;
 	color: #0000cd;
 }
+
+/* 
+	ÁREA CRIADO POR ↴
+*/
+
+.created_by {
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.created_by a {
+	color: white;
+	text-decoration: none;
+}
