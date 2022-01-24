@@ -141,3 +141,7 @@ cadastro a {
 	color: white;
 	text-decoration: none;
 }
+
+.created_by a:hover {
+    color: blue;
+}
