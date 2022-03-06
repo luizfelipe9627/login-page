@@ -145,3 +145,31 @@ cadastro a {
 .created_by a:hover {
     color: blue;
 }
+
+/* 
+	RESPONSIVIDADE PARA SMARTHPHONE↴
+*/
+
+@media (max-width: 750px) {
+
+	/* 
+		FUNDO ↴
+	*/
+
+	.wallpaper {
+		height: 100%;
+	}
+
+	/* 
+		ÁREA LOGIN ↴
+	*/
+
+	.fundo {
+		height: 555px;
+	}
+	.divisor {
+		padding-top: 20vw;
+	}
+	
+}
+
