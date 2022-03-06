@@ -21,7 +21,7 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	border-radius: 10px;
+	border-radius: 3% 25%;
 	border: 2px solid #F0F8FF;
 	width: 300px;
 	height: 550px;
@@ -36,7 +36,7 @@ body {
 	justify-content: center;
 	text-align: left;
 	position: relative;
-	padding-top: 1.5vw;
+	padding-top: 3vw;
 }
 
 .login {
@@ -150,8 +150,7 @@ cadastro a {
 	RESPONSIVIDADE PARA SMARTHPHONE↴
 */
 
-@media (max-width: 750px) {
-
+@media (max-width: 425px) {
 	/* 
 		FUNDO ↴
 	*/
@@ -168,8 +167,33 @@ cadastro a {
 		height: 555px;
 	}
 	.divisor {
-		padding-top: 20vw;
+		padding-top: 15vh;
 	}
-	
 }
+
+/*
+	RESPONSIVIDADE PARA TABLET ↴
+*/
+
+@media (min-width: 426px) and (max-width: 768px) {
+	/*
+		FUNDO ↴
+	*/
+
+	.wallpaper {
+		height: 100%;
+	}
+
+	/* 
+		ÁREA LOGIN ↴
+	*/
+
+	.fundo {
+		height: 555px;
+	}
+	.divisor {
+		padding-top: 20vh;
+	}
+}
+
 
