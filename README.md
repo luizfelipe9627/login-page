@@ -7,11 +7,11 @@
 Uma área de login na qual o usuario tera facil acesso a logar de várias formas diferentes ou se cadastrar caso seja necessário.
 
 ## 📑 Observação
-Este layout de login foi criado como um exercicio que foi dado pelo Bonieky do B7WEB.
+Este layout de login foi criado como um exercicio que foi dado pelo Bonieky do B7WEB para praticar HTML5 e CSS3.
 
 ### <a href="https://luizfelipe9627.github.io/login-page">Acesse o site</a>
 
-## ✔️ Tecnologias utilizadas
+## 💻 Tecnologias utilizadas
 
 - ``HTML5``
 - ``CSS3``
@@ -31,7 +31,7 @@ Este layout de login foi criado como um exercicio que foi dado pelo Bonieky do B
   </tr>
 </table>
 
-## 😄 Me siga nas redes sociais<br>
+## 📷 Me siga nas redes sociais<br>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/luizfelipe9627/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
