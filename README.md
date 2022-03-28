@@ -7,7 +7,7 @@
 Uma área de login na qual o usuario tera facil acesso a logar de várias formas diferentes ou se cadastrar caso seja necessário.
 
 ## 📑 Observação
-Este layout de login foi criado como um exercicio que foi dado pelo Bonieky do B7WEB para praticar HTML5 e CSS3.
+Este layout de login foi criado para praticar HTML5 e CSS3.
 
 ### <a href="https://luizfelipe9627.github.io/login-page">Acesse o site</a>
 
