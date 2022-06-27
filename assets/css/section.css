@@ -1,0 +1,69 @@
+.fundo_form {
+	background-color: rgba(255, 255, 255, 0.247);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border-radius: 3% 20%;
+	border: 2px solid #F0F8FF;
+	width: 300px;
+	height: 550px;
+}
+
+.fundo_form a {
+	color: blue;
+}
+
+.divisor {
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	position: relative;
+	padding-top: 3vw;
+}
+
+.login {
+	width: 300px;
+	height: 30px;
+}
+
+.senha {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.icon {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.icones_login {
+	display: flex;
+	justify-content: center;
+}
+
+.icone_texto {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.icone_facebook, .icone_linkedin, .icone_google {
+	padding: 10px;
+	padding-top: 15px;
+	width: 40px;
+}
+
+.cadastro {
+	padding-top: 5px;
+	text-align: right;
+}
+
+.cadastro a {
+	text-decoration: none;
+	color: #0000cd;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.divisor {
+		padding-top: 10vh;
+	}
+}

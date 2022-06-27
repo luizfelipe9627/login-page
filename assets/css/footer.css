@@ -1,0 +1,16 @@
+.created_by {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.created_by a {
+	text-decoration: none;
+	color: #B0E0E6;
+}
+
+.created_by a:hover {
+	color: blue;
+}

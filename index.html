@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-br">
     <head>
         <title>Login</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=0">
-        <link rel = "stylesheet" type="text/css" href="/css/style.css">
-        <link href="https://luizfelipe9627.github.io/login-page/css/style.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/css/style.min.css">
     </head>
 
     <body>
         <main>
-            <section>
-                <div class="wallpaper"><img src="https://luizfelipe9627.github.io/login-page/assets/images/banner.jpg" width="100%" height="100%"></div>
-
+            <section aria-label="Sessão de login">
                 <div class="divisor">
                     <form>
-                        <div class="fundo">
+                        <div class="fundo_form">
                             <h1>LOGIN</h1>
 
-                            <div class="icon"><img src="https://luizfelipe9627.github.io/login-page/assets/icons/icon.png" width="100px"></div>
+                            <div class="icon"><img src="./assets/images/icon.webp" width="100px" height="100px" alt="Ícone usuário"></div>
     
                             <label>
-                                <input type="email" class="login" placeholder="Email" autofocus required>
+                                <input type="email" class="login" placeholder="Email" autofocus required aria-label="Área email">
                             </label>
     
                             <label>
-                                <input type="password" class="login" placeholder="Senha" required>
+                                <input type="password" class="login" placeholder="Senha" required aria-label="Área senha">
                             </label>
     
                             <label>
@@ -34,36 +31,39 @@
                                 Manter-me conectado.
                             </label>
     
-                            <a href="">
+                            <a href="#">
                                 <button>Logar</button>
                             </a>
     
-                            <a href="">
+                            <a href="#">
                                 <div class="senha">Esqueceu sua senha?</div>
                             </a>
     
                             <div class="icone_texto">Ou logue usando outras contas:</div>
     
                             <div class="icones_login">
-                                <a href="">
-                                <div class="icone_facebook" title="Facebook"><img src="https://luizfelipe9627.github.io/login-page/assets/icons/facebook.png" width="35px"></div>
+                                <a href="#">
+                                 <div class="icone_facebook" title="Facebook"><img src="./assets/images/facebook.webp" width="35px" height="35px" alt="Ícone do Facebook"></div>
                                 </a>
     
-                                <a href="">
-                                <div class="icone_google" title="Google"><img src="https://luizfelipe9627.github.io/login-page/assets/icons/google.png" width="35px"></div>
+                                <a href="#">
+                                 <div class="icone_google" title="Google"><img src="./assets/images/google.webp" width="35px" height="35px" alt="Ícone do Google"></div>
                                 </a>
     
-                                <a href="">
-                                <div class="icone_email" title="Email"><img src="https://luizfelipe9627.github.io/login-page/assets/icons/linkedin.png" width="35px"></div>
+                                <a href="#">
+                                 <div class="icone_linkedin" title="Linkedin"><img src="./assets/images/linkedin.webp" width="35px" height="35px" alt="Ícone do Linkedin"></div>
                                 </a>
                             </div>
                             
-                            <div class="cadastro">Ainda não tem uma conta? <a href="">Cadastre-se</a></div>
+                            <div class="cadastro">Ainda não tem uma conta? <a href="#">Cadastre-se</a></div>
                         </div>
-                        <div class="created_by">Criado por <a href="https://github.com/luizfelipe9627" target="_blank" title="GitHub">Luiz Felipe Silva</a></div>
                     </form>
                 </div>
             </section>
         </main>
+
+        <footer>
+            <div class="created_by">Criado por <a href="https://github.com/luizfelipe9627" target="_blank" title="GitHub">Luiz Felipe Silva</a></div>
+        </footer>
     </body>
 </html>
