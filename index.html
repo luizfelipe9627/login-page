@@ -10,60 +10,82 @@
 
     <body>
         <main>
-            <section aria-label="Sessão de login">
+            <section aria-label="Login">
                 <div class="divisor">
-                    <form>
-                        <div class="fundo_form">
-                            <h1>LOGIN</h1>
+                    <div class="fundo_form">
+                        <h1>
+                            LOGIN
+                        </h1>
 
-                            <div class="icon"><img src="./assets/image/icon.webp" width="100px" height="100px" alt="Ícone usuário"></div>
-    
-                            <label>
+                        <div class="icon">
+                            <img src="./assets/image/icon.webp" width="100px" height="100px" alt="Ícone usuário">
+                        </div>
+
+                        <form action="./index.html" method="get" id="login">
+                            <label for="login">
                                 <input type="email" class="login" placeholder="Email" autofocus required aria-label="Área email">
                             </label>
     
-                            <label>
+                            <label for="login">
                                 <input type="password" class="login" placeholder="Senha" required aria-label="Área senha">
                             </label>
     
-                            <label>
+                            <label for="login">
                                 <input type="checkbox">
                                 Manter-me conectado.
                             </label>
-    
-                            <a href="#">
-                                <button>Logar</button>
-                            </a>
-    
-                            <a href="#">
-                                <div class="senha">Esqueceu sua senha?</div>
-                            </a>
-    
-                            <div class="icone_texto">Ou logue usando outras contas:</div>
-    
-                            <div class="icones_login">
-                                <a href="#">
-                                 <div class="icone_facebook" title="Facebook"><img src="./assets/image/facebook.webp" width="35px" height="35px" alt="Ícone do Facebook"></div>
-                                </a>
-    
-                                <a href="#">
-                                 <div class="icone_google" title="Google"><img src="./assets/image/google.webp" width="35px" height="35px" alt="Ícone do Google"></div>
-                                </a>
-    
-                                <a href="#">
-                                 <div class="icone_linkedin" title="Linkedin"><img src="./assets/image/linkedin.webp" width="35px" height="35px" alt="Ícone do Linkedin"></div>
-                                </a>
-                            </div>
                             
-                            <div class="cadastro">Ainda não tem uma conta? <a href="#">Cadastre-se</a></div>
+                            <label for="login">
+                                <a href="#logar">
+                                    <button type="submit" for="login">
+                                        Logar
+                                    </button>
+                                </a>
+                            </label>
+                        </form>
+    
+                        <a href="#senha">
+                            <div class="senha">
+                                Esqueceu sua senha?
+                            </div>
+                        </a>
+
+                        <div class="icone_texto">
+                            Ou logue usando outras contas:
                         </div>
-                    </form>
+
+                        <div class="icones_login">
+                            <a href="#facebook">
+                                <div class="icone_facebook" title="Facebook">
+                                    <img src="./assets/image/facebook.webp" width="35px" height="35px" alt="Ícone do Facebook">
+                                </div>
+                            </a>
+
+                            <a href="#google">
+                                <div class="icone_google" title="Google">
+                                    <img src="./assets/image/google.webp" width="35px" height="35px" alt="Ícone do Google">
+                                </div>
+                            </a>
+
+                            <a href="#linkedin">
+                                <div class="icone_linkedin" title="Linkedin">
+                                    <img src="./assets/image/linkedin.webp" width="35px" height="35px" alt="Ícone do Linkedin">
+                            </div>
+                            </a>
+                        </div>
+                        
+                        <div class="cadastro">
+                            Ainda não tem uma conta? <a href="#cadastrar">Cadastre-se</a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
 
         <footer>
-            <div class="created_by">Criado por <a href="https://github.com/luizfelipe9627" target="_blank" title="GitHub">Luiz Felipe Silva</a></div>
+            <div class="created_by">
+                Criado por <a href="https://github.com/luizfelipe9627" target="_blank" title="GitHub">Luiz Felipe Silva</a>
+            </div>
         </footer>
     </body>
 </html>
