@@ -1,4 +1,4 @@
-# Login Page Layout
+# Login Page
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
 <img src="https://github.com/luizfelipe9627/login-page/blob/main/assets/images/login-page.jpg" alt="Apresentação do Login page">
@@ -9,7 +9,7 @@ Uma área de login na qual o usuario tera facil acesso a logar de várias formas
 ## 📑 Observação
 Este layout de login foi criado para praticar HTML5 e CSS3.
 
-### <a href="https://luizfelipe9627.github.io/login-page">Acesse o site</a>
+### <a href="https://luizfelipe9627-login-page.netlify.app">Acesse o site</a>
 
 ## 💻 Tecnologias utilizadas
 
