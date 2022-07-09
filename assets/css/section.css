@@ -1,12 +1,8 @@
 .fundo_form {
+	padding: 1.25rem;
 	background-color: rgba(255, 255, 255, 0.247);
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
 	border-radius: 3% 15%;
-	border: 2px solid #F0F8FF;
-	width: 300px;
-	height: 550px;
+	border: 0.125rem solid #F0F8FF;
 }
 
 .fundo_form a {
@@ -22,18 +18,18 @@
 }
 
 .login {
-	width: 300px;
-	height: 30px;
+	width: 18.75rem;
+	height: 1.875rem;
 }
 
 .senha {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 0.625rem;
 }
 
 .icon {
 	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 1.875rem;
 }
 
 .icones_login {
@@ -43,17 +39,16 @@
 
 .icone_texto {
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 0.625rem;
 }
 
 .icone_facebook, .icone_linkedin, .icone_google {
-	padding: 10px;
-	padding-top: 15px;
-	width: 40px;
+	padding: 0.9375rem 0.625rem 0.625rem 0.625rem;
+	width: 2.5rem;
 }
 
 .cadastro {
-	padding-top: 5px;
+	margin-top: 0.625rem;
 	text-align: right;
 }
 

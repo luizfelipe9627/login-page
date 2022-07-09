@@ -1,11 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	margin: 0;
-	padding: 0;
+	height: 100vh;
 	font-family: 'Open Sans';
 	background-image: url("../image/banner.webp");
 	background-position: center;
 	background-size: cover;
   background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 2.1875rem;
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 1.25rem;
+	font-size: 1.0625rem;
+}
+
+input {
+	font-size: 0.9375rem;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 0.0625rem solid #F0F8FF	;
+}
+
+button {
+	padding: 0.625rem;
+	width: 18.75rem;
+	font-size: 0.9375rem;
+	color: black;
+	background: #B0E0E6;
+	font-weight: bold;
+	border: none;
+	border-radius: 0.3125rem;
+	box-shadow: 0.1875rem 0.1875rem #add8e660;
 }
 
 button:hover {
@@ -14,35 +48,4 @@ button:hover {
 
 ::placeholder {
 	color: black;
-}
-
-h1 {
-	font-size: 35px;
-	text-align: center;
-}
-
-label {
-	display: block;
-	margin-bottom: 20px;
-	font-size: 17px;
-}
-
-input {
-	font-size: 15px;
-	background-color: transparent;
-	border: none;
-	outline: none;
-	border-bottom: 1px solid #F0F8FF	;
-}
-
-button {
-	padding: 10px;
-	width: 300px;
-	font-size: 15px;
-	color: black;
-	background: #B0E0E6;
-	font-weight: bold;
-	border: none;
-	border-radius: 5px;
-	box-shadow: 3px 3px #add8e660;
 }
