@@ -19,28 +19,20 @@
                             <img src="./assets/image/icon.webp" width="100px" height="100px" alt="Ícone usuário">
                         </div>
 
-                        <form action="./index.html" method="get" id="login">
-                            <label for="login">
-                                <input type="email" class="login" placeholder="Email" autofocus required aria-label="Área email">
-                            </label>
-    
-                            <label for="login">
-                                <input type="password" class="login" placeholder="Senha" required aria-label="Área senha">
-                            </label>
-    
-                            <label for="login">
-                                <input type="checkbox">
-                                
-                                Manter-me conectado.
-                            </label>
+                        <form action="./index.html" method="get">
+                            <input type="email" class="login" placeholder="Email" autofocus required aria-label="Área email">
+
+                            <input type="password" class="login" placeholder="Senha" required aria-label="Área senha">
+
+                            <div class="check">
+                                <label for="check">Manter-me conectado.</label>
+                                <input type="checkbox" id="check">
+                            </div>
                             
-                            <label for="login">
-                                <a href="#logar">
-                                    <button type="submit" for="login">Logar</button>
-                                </a>
-                            </label>
+                            <button type="submit">Logar</button>
                         </form>
-    
+                        
+                        
                         <a href="#senha">
                             <div class="senha">Esqueceu sua senha?</div>
                         </a>

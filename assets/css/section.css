@@ -15,14 +15,31 @@
 	text-align: left;
 }
 
-.login {
-	width: 100%;
-	height: 1.875rem;
+form {
+	display: flex;
+	flex-direction: column;
 }
 
-.senha {
-	text-align: center;
+.check {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
 	margin-top: 0.625rem;
+}
+
+.check input {
+	margin-right: 0.625rem;
+}
+
+.login {
+	width: auto;
+	height: 1.875rem;
+	margin-bottom: 0.625rem;
+}
+
+.senha  {
+	text-align: center;
+	margin-top: 0.9375rem;
 }
 
 .icon {
@@ -37,7 +54,7 @@
 
 .icone_texto {
 	text-align: center;
-	padding-top: 0.625rem;
+	margin-top: 0.625rem;
 }
 
 .icone_facebook, .icone_linkedin, .icone_google {
